@@ -15,6 +15,7 @@ $conn = new mysql($host,$username,$password,$dbname);
 
 if($conn->conect_error){
     die("Falha na conexão",$conn->conect_error);
+
 }
 echo "Conexão realizada com sucesso";
 
